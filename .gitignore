@@ -1,0 +1,26 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Secrets — NEVER commit
+config.json
+
+# State files (auto-generated per machine)
+seen_tenders.json
+mcx_seen_tenders.json
+nabfid_seen_tenders.json
+
+# Email previews
+preview.html
+*_preview.html
+
+# Logs
+monitor.log
+
+# Old standalone scripts (replaced by tender_monitor.py)
+rbi_tender_monitor.py
+mcx_tender_monitor.py
+run_all_monitors.sh
