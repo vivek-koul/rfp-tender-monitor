@@ -22,8 +22,8 @@ A Python script that monitors government and institutional tender/procurement pa
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/vivek-koul/tender-monitor.git
-cd tender-monitor
+git clone https://github.com/vivek-koul/rfp-tender-monitor.git
+cd rfp-tender-monitor
 ```
 
 ### 2. Create virtual environment and install dependencies
