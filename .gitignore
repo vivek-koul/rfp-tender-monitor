@@ -9,9 +9,8 @@ __pycache__/
 config.json
 
 # State files (auto-generated per machine)
+*_seen_tenders.json
 seen_tenders.json
-mcx_seen_tenders.json
-nabfid_seen_tenders.json
 
 # Email previews
 preview.html
@@ -20,7 +19,6 @@ preview.html
 # Logs
 monitor.log
 
-# Old standalone scripts (replaced by tender_monitor.py)
-rbi_tender_monitor.py
-mcx_tender_monitor.py
+# Old standalone scripts
+*_tender_monitor.py
 run_all_monitors.sh

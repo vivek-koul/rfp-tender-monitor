@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-Tender Monitor — RBI + MCX + NaBFID
-Monitors RBI tenders, MCX procurement RFPs, and NaBFID tenders,
-summarizes them using Gemini AI, and sends email notifications via Gmail.
+Tender Monitor
+Monitors multiple tender/procurement pages, summarizes new postings
+using Gemini AI, and sends email notifications via Gmail.
 """
 
 import argparse
@@ -621,7 +621,7 @@ def seed_source(source_key):
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Tender Monitor — RBI + MCX + NaBFID",
+        description="Tender Monitor — multi-source tender tracker",
         epilog="Examples:\n"
                "  %(prog)s                       Check all sources for new tenders\n"
                "  %(prog)s --source rbi          Check only RBI\n"
